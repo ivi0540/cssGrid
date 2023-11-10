@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 700px;
+    height: 300px;
+    background-color: aqua;
+
+    display: grid;
+    grid-template-columns: 35% 15%;
+    /* длинна блоков */
+    grid-column-gap: 5px;
+    /* отступы между кононками */
+    grid-row-gap: 7px;
+    /* отступы между строками  */
+    grid-gap: 10px;
+    /* отступы между строками и колонками */
+}
+
+.elem1 {
+    background-color: blue;
+}
+
+.elem2 {
+    background-color: beige;
+}
+
+.elem3 {
+    background-color: chocolate;
+}
